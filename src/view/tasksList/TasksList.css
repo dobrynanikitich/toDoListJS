@@ -1,0 +1,92 @@
+.task-type--list {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    min-height: 135px;
+    padding: 10px 10px;
+    background: lightgoldenrodyellow;
+    border-radius: 7px;
+    border: 3px solid white;
+}
+
+.task-type--list > div {
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+.backlog-list {
+    color: grey;
+}
+
+.inProgress-list {
+    color: steelblue;
+}
+
+.done-list {
+    color: mediumseagreen;
+}
+
+.bucket-list {
+    color: firebrick;
+}
+
+.task-type--list > li {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.fa-pen-square {
+    color: cornflowerblue;
+    display: none;
+}
+
+.backlog-task {
+    border-left: 4px solid grey;
+}
+
+.inProgress-task {
+    border-left: 4px solid steelblue;
+}
+
+.done-task {
+    border-left: 4px solid mediumseagreen;
+}
+
+.bucket-task {
+    border-left: 4px solid firebrick;
+}
+
+.task-text--input {
+    height: 35%;
+    width: 100%;
+    border: none;
+    outline: 0;
+}
+
+.task-text--input:hover {
+    cursor: pointer;
+}
+
+.task-menu:hover i {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+
+.hovered {
+    background-color: honeydew;
+}

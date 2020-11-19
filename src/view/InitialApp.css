@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+.container-app {
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+    padding: 3% 3% 0 3%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header-app {
+    width: 100%;
+    height: 80px;
+    background: lightgoldenrodyellow;
+    color: maroon;
+    display: flex;
+    align-items: center;
+    border: 4px solid white;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.header-app span {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.todolist-wrapper {
+    margin-bottom: 50px;
+}
+
+.tasks-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+  
